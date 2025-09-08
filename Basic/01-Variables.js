@@ -27,4 +27,4 @@ function suma(operador, operador2){
     return resultado
 }
 
-console.log(suma(5,5))
+console.log(suma(5,5));
