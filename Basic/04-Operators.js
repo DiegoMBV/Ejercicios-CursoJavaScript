@@ -7,8 +7,8 @@ console.log(5 - 10)//resta
 console.log(5 * 10)//multiplicación
 console.log(5 / 10)//división
 
-let a = 4 
-let b = 4
+let a = 5
+let b = 10
 console.log(a + b)
 
 console.log(8 % 3)//division con resto(da el resto)
