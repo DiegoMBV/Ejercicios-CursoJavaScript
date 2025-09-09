@@ -1,4 +1,4 @@
-//Tenemos 3 formas de crear variables
+//Tenemos 3 formas de crear variables(no usar var, es la forma antigua)
 
 /** 
  * ? var -> Forma original de crear variables, puede varias(le puedes cambiar el valor)
@@ -20,11 +20,11 @@ console.log(helloWorld2)
 helloWorld2 = "Cambio de valor"
 console.log(helloWorld2)
 
-//const
+//const -> No puedes cambiarle el valor ya que es un valor constante
 
-function suma(operador, operador2){
-    resultado = operador + operador2
-    return resultado
-}
+const helloWorld3 = "¡Hola, Mundo 3"
+console.log(helloWorld3)
 
-console.log(suma(5,5));
+// Esto dará un error ya que el valor no se puede cambiar
+//helloWorld3 = "Cambio"
+//console.log(helloWorld3)
