@@ -2,6 +2,6 @@
 /* Comentario de
 Varias lineas */
 
-console.log('Hola Mundo')
+console.log("Hola Mundo, me llamo Diego")
 
-console.log(4 + 4);
+console.log(4+4)
