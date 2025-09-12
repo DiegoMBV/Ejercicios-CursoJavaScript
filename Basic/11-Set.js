@@ -45,3 +45,11 @@ console.log(myArray)
 //Convertir un array a set 
 set = new Set(myArray)
 console.log(set)
+
+//No permite duplicados exactamente iguales, si cambias de minuscula a mayuscula si deja
+
+set.add("Diego")
+set.add("Diego")
+set.add("Diego")
+set.add("diego")
+console.log(set)
