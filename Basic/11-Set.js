@@ -32,3 +32,16 @@ console.log(set.delete("mbv"))//false si no lo borra
 
 set.has("Diego")
 set.has("hola")
+
+//size (es como .length para ver la longitud del set)
+
+console.log(set.size)
+
+//Convertur un set a array
+
+let myArray = Array.from(set)
+console.log(myArray)
+
+//Convertir un array a set 
+set = new Set(myArray)
+console.log(set)
