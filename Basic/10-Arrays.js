@@ -83,7 +83,6 @@ console.log(myArray)
 console.log(myNewArray)
 
 //splice
-
 myArray.splice(1,3)//elimina los elementos(Desde que elemento quieres empezar?, desde el 1, cuantos elementos quieres borrar? 3)
 
 myArray = ["diego", "Martinez",45]

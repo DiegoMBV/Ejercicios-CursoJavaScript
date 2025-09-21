@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "Inazuma_Saves",
+			"path": "R:/Inazuma_Saves"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Inazuma_Saves"
+	}
+}
